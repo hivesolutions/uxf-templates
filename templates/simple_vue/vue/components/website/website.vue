@@ -4,14 +4,13 @@
     <ux-button color="green" v-on:click="onClick('green')">Button Green</ux-button>
     <ux-button color="red" v-on:click="onClick('red')">Button Red</ux-button>
     <ux-drop-down v-bind:values="items" v-bind:persist="true"
-                    v-on:value_change="onValueChange"></ux-drop-down>
+                  v-on:value_change="onValueChange"></ux-drop-down>
     <ux-text-field original-value="Put some text"></ux-text-field>
     <ux-text-field type="date" original-value="Put a date"></ux-text-field>
 </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
 
 <script>
 import Vue from "vue";
@@ -40,7 +39,7 @@ export const Website = Vue.component("website", {
                 text: "third",
                 value: "third"
             }]
-        }
+        };
     },
     methods: {
         onClick: function(value) {
