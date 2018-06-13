@@ -10,6 +10,8 @@ import "hive-layout/css/layout.flat.css";
 import "hive-layout/css/layout.extras.css";
 import "hive-layout/css/layout.data.css";
 
+import "../css/layout.css";
+
 import "../res/ux.ico";
 
 import {
