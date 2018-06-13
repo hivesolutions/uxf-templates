@@ -1,5 +1,4 @@
 import Vue from "vue";
-import jQuery from "jquery";
 
 import "hive-layout";
 import "hive-js-util";
@@ -17,8 +16,6 @@ import "../res/images/ux.ico";
 import {
     Website
 } from "../vue";
-
-window.$ = window.jQuery = jQuery;
 
 export const simpleVue = function() {
     const app = new Vue({
