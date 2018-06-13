@@ -41,6 +41,14 @@ export const Website = Vue.component("website", {
                 value: "third"
             }]
         }
+    },
+    methods: {
+        onClick: function(value) {
+            alert(`Clicked: ${value || "normal"}`);
+        },
+        onValueChange: function(value) {
+            alert(`Selected: ${value}`);
+        }
     }
 });
 

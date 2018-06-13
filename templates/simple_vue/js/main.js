@@ -21,16 +21,8 @@ window.$ = window.jQuery = jQuery;
 export const simpleVue = function() {
     const app = new Vue({
         el: "#app",
-        components: [
+        components: {
             Website
-        ],
-        methods: {
-            onClick: function(value) {
-                alert(`Clicked: ${value || "normal"}`);
-            },
-            onValueChange: function(value) {
-                alert(`Selected: ${value}`);
-            }
         }
     });
     return app;
