@@ -21,6 +21,7 @@
         "index.html",
         "css/**/*.css",
         "js/**/*.js",
+        "res/**/*.ico",
         "res/**/*.png",
         "test/**/*.js",
         "vue/**/*.js",
