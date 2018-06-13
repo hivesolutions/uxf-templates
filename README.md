@@ -1,2 +1,3 @@
-# uxf_templates
-Set of UX Framework project templates
+# UX Framework Templates
+
+Set of UX Framework project templates.
