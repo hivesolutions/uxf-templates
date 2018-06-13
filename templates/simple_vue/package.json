@@ -18,7 +18,7 @@
     "license": "Apache-2.0",
     "author": "Hive Solutions",
     "files": [
-        "index.js",
+        "index.html",
         "css/**/*.css",
         "js/**/*.js",
         "res/**/*.png",
