@@ -22,7 +22,9 @@
         "css/**/*.css",
         "js/**/*.js",
         "res/**/*.png",
-        "test/**/*.js"
+        "test/**/*.js",
+        "vue/**/*.js",
+        "vue/**/*.vue"
     ],
     "main": "js/main.js",
     "scripts": {
@@ -34,10 +36,10 @@
     },
     "dependencies": {
         "hive-layout": "^0.1.2",
-        "uxf": "^0.1.2",
+        "uxf": "^0.1.4",
         "vue": "^2.5.16"
     },
     "devDependencies": {
-        "uxf-webpack": "^0.1.3"
+        "uxf-webpack": "^0.1.4"
     }
 }

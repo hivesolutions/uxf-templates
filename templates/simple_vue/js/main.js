@@ -1,12 +1,6 @@
 import Vue from "vue";
 import jQuery from "jquery";
 
-import {
-    UxButton,
-    UxDropDown,
-    UxTextField
-} from "uxf/vue";
-
 import "hive-layout";
 import "hive-js-util";
 
@@ -16,30 +10,20 @@ import "hive-layout/css/layout.flat.css";
 import "hive-layout/css/layout.extras.css";
 import "hive-layout/css/layout.data.css";
 
-import "./res/ux.ico";
+import "../res/ux.ico";
+
+import {
+    Website
+} from "../vue";
 
 window.$ = window.jQuery = jQuery;
 
 export const simpleVue = function() {
     const app = new Vue({
         el: "#app",
-        components: {
-            UxButton,
-            UxDropDown,
-            UxTextField
-        },
-        data: {
-            items: [{
-                text: "first",
-                value: "first"
-            }, {
-                text: "second",
-                value: "second"
-            }, {
-                text: "third",
-                value: "third"
-            }]
-        },
+        components: [
+            Website
+        ],
         methods: {
             onClick: function(value) {
                 alert(`Clicked: ${value || "normal"}`);

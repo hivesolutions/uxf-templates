@@ -4,10 +4,10 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = require("uxf-webpack/config/webpack.config.full");
 
-config.entry = "./main.js";
+config.entry = "./js/main.js";
 config.output.filename = "ux-vue.examples.min.js?[hash]";
 config.devServer = {
-    contentBase: path.join(__dirname, "../dist"),
+    contentBase: path.join(__dirname, "dist"),
     compress: false,
     port: 3000,
     stats: "minimal",
@@ -17,7 +17,7 @@ config.devServer = {
 config.plugins.push(
     new HtmlWebpackPlugin({
         title: "uxFramework Vue",
-        template: "examples/vue/index.html",
+        template: "./index.html",
         cache: false,
         inject: "head",
         minify: {
