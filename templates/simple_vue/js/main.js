@@ -12,7 +12,7 @@ import "hive-layout/css/layout.data.css";
 
 import "../css/layout.css";
 
-import "../res/ux.ico";
+import "../res/images/ux.ico";
 
 import {
     Website
