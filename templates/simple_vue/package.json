@@ -37,10 +37,10 @@
     },
     "dependencies": {
         "hive-layout": "^0.1.2",
-        "uxf": "^0.2.0",
+        "uxf": "^0.2.1",
         "vue": "^2.5.16"
     },
     "devDependencies": {
-        "uxf-webpack": "^0.1.5"
+        "uxf-webpack": "^0.1.6"
     }
 }
