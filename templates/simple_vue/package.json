@@ -21,6 +21,7 @@
         "index.js",
         "css/**/*.css",
         "js/**/*.js",
+        "res/**/*.png",
         "test/**/*.js"
     ],
     "main": "js/main.js",
