@@ -42,6 +42,6 @@
         "vue": "^2.5.16"
     },
     "devDependencies": {
-        "uxf-webpack": "^0.1.7"
+        "uxf-webpack": "^0.1.8"
     }
 }
