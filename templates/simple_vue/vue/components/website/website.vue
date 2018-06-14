@@ -10,16 +10,13 @@
 </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
 
 <script>
 import Vue from "vue";
 
-import {
-    UxButton,
-    UxDropDown,
-    UxTextField
-} from "uxf/vue";
+import { UxButton, UxDropDown, UxTextField } from "uxf/vue";
 
 export const Website = Vue.component("website", {
     components: {
@@ -29,16 +26,20 @@ export const Website = Vue.component("website", {
     },
     data: function() {
         return {
-            items: [{
-                text: "first",
-                value: "first"
-            }, {
-                text: "second",
-                value: "second"
-            }, {
-                text: "third",
-                value: "third"
-            }]
+            items: [
+                {
+                    text: "first",
+                    value: "first"
+                },
+                {
+                    text: "second",
+                    value: "second"
+                },
+                {
+                    text: "third",
+                    value: "third"
+                }
+            ]
         };
     },
     methods: {

@@ -1,3 +1,1 @@
-export {
-    Website
-} from "./website/website.vue";
+export { Website } from "./website/website.vue";

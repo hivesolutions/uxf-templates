@@ -13,9 +13,7 @@ import "../css/layout.css";
 
 import "../res/images/ux.ico";
 
-import {
-    Website
-} from "../vue";
+import { Website } from "../vue";
 
 export const simpleVue = function() {
     const app = new Vue({
