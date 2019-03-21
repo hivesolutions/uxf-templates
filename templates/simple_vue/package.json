@@ -31,8 +31,8 @@
     "scripts": {
         "dev": "webpack-dev-server --config webpack.config.js --mode development --watch --hot",
         "lint": "eslint \"./**/*.{js,vue}\"",
-        "test": "mocha --recursive",
         "prettier": "prettier \"./**/*.{js,vue,json}\" --write",
+        "test": "mocha --recursive",
         "upgrade": "npx sort-package-json && ncu -u",
         "webpack": "webpack --config webpack.config.js"
     },
