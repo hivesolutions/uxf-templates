@@ -33,7 +33,7 @@
         "lint": "eslint \"./**/*.{js,vue}\"",
         "test": "mocha --recursive",
         "prettier": "prettier \"./**/*.{js,vue,json}\" --write",
-        "upgrade": "npx sort-package-json && ncu -au",
+        "upgrade": "npx sort-package-json && ncu -u",
         "webpack": "webpack --config webpack.config.js"
     },
     "dependencies": {
@@ -42,6 +42,6 @@
         "vue": "^2.6.10"
     },
     "devDependencies": {
-        "uxf-webpack": "^0.2.2"
+        "uxf-webpack": "^0.2.3"
     }
 }
