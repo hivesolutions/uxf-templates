@@ -37,11 +37,11 @@
         "webpack": "webpack --config webpack.config.js"
     },
     "dependencies": {
-        "hive-layout": "^0.1.2",
-        "uxf": "^0.2.1",
-        "vue": "^2.6.9"
+        "hive-layout": "^0.1.3",
+        "uxf": "^0.2.2",
+        "vue": "^2.6.10"
     },
     "devDependencies": {
-        "uxf-webpack": "^0.2.0"
+        "uxf-webpack": "^0.2.2"
     }
 }
