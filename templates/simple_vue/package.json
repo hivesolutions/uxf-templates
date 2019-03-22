@@ -29,6 +29,8 @@
     ],
     "main": "js/main.js",
     "scripts": {
+        "build": "webpack --mode production --config webpack.config.js",
+        "build-dev": "webpack --mode development --config webpack.config.js",
         "dev": "webpack-dev-server --config webpack.config.js --mode development --watch --hot",
         "lint": "eslint \"./**/*.{js,vue}\"",
         "prettier": "prettier \"./**/*.{js,vue,json}\" --write",

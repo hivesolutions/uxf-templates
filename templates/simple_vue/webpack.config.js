@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const config = require("uxf-webpack/config/webpack.config.full");
 
 config.entry = "./js/main.js";
+config.output.path = path.join(__dirname, "dist");
 config.devServer = {
     contentBase: path.join(__dirname, "dist"),
     compress: false,
