@@ -29,9 +29,9 @@
     ],
     "main": "js/main.js",
     "scripts": {
-        "build": "webpack --mode production --config webpack.config.js",
-        "build-dev": "webpack --mode development --config webpack.config.js",
-        "dev": "webpack-dev-server --config webpack.config.js --mode development --watch --hot",
+        "build": "cross-env NODE_ENV=production webpack --mode production --config webpack.config.js",
+        "build-dev": "cross-env NODE_ENV=development webpack --mode development --config webpack.config.js",
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js --mode development --watch --hot",
         "lint": "eslint \"./**/*.{js,vue}\"",
         "prettier": "prettier \"./**/*.{js,vue,json}\" --write",
         "test": "mocha --recursive",
@@ -41,9 +41,9 @@
     "dependencies": {
         "hive-layout": "^0.1.3",
         "uxf": "^0.2.2",
-        "vue": "^2.6.10"
+        "vue": "^2.6.11"
     },
     "devDependencies": {
-        "uxf-webpack": "^0.2.3"
+        "uxf-webpack": "^0.5.1"
     }
 }
