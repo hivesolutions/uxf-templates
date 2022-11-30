@@ -7,13 +7,13 @@
         "ui",
         "uxf"
     ],
-    "homepage": "https://github.com/hivesolutions/uxf_templates#readme",
+    "homepage": "https://github.com/hivesolutions/uxf-templates#readme",
     "bugs": {
-        "url": "https://github.com/hivesolutions/uxf_templates/issues"
+        "url": "https://github.com/hivesolutions/uxf-templates/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hivesolutions/uxf_templates.git"
+        "url": "git+https://github.com/hivesolutions/uxf-templates.git"
     },
     "license": "Apache-2.0",
     "author": "Hive Solutions",
